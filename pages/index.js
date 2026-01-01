@@ -1,10 +1,10 @@
 import Head from "next/head";
 import Link from "next/link";
 import { NAV_ITEMS } from "../data";
-import Intro from "./components/Intro";
-import Tech from "./components/Tech";
-import Trouble from "./components/Trouble";
-import Diagram from "./components/Diagram";
+import Intro from "./Intro";
+import Tech from "./Tech";
+import Trouble from "./trouble";
+import Diagram from "./Diagram";
 
 export default function Home() {
   return (

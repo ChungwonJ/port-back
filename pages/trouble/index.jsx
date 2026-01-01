@@ -1,8 +1,9 @@
-import Conclusion from '@/components/trouble/Conclusion';
-import Implementation from '@/components/trouble/Implementation';
-import ServiceSummaryTable from '@/components/trouble/ServiceSummaryTable';
-import SolutionTable from '@/components/trouble/SolutionTable';
+
 import React from 'react'
+import ServiceSummaryTable from './components/ServiceSummaryTable'
+import SolutionTable from './components/SolutionTable'
+import Implementation from './components/Implementation'
+import Conclusion from './components/Conclusion'
 
 export default function Trouble() {
   return (
